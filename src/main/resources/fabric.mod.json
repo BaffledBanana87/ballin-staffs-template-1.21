@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ballin-staffs",
+	"version": "${version}",
+	"name": "Ballin Staffs",
+	"description": "This mod has many diff staffs made by me BaffledBanana",
+	"authors": [
+		"BaffledBanana"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ballin-staffs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.baffledbanana.ballinstaffs.BallinStaffs"
+		],
+		"client": [
+			"net.baffledbanana.ballinstaffs.BallinStaffsClient"
+		],
+		"fabric-datagen": [
+			"net.baffledbanana.ballinstaffs.BallinStaffsDataGenerator"
+		]
+	},
+	"mixins": [
+		"ballin-staffs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
