@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:fire_charge"
+    },
+    "D": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    " DX",
+    " #D",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ballinstaffs:fire_staff"
+  }
+}
